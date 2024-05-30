@@ -238,7 +238,7 @@ def show_page(page):
         st.markdown('---')
         new_line(2)
         st.write('The following results have been achived. 75% and 78% in Premier League and Seria A are remarkable. The model has been able to generalize the other classes poorly because of lack of data samples.')
-        st.image("img/results.png", use_column_width=True)
+        st.image("img/results.jpg", use_column_width=True)
 
         new_line()
         st.write("We have used the model to predict this summer's transfers:")
